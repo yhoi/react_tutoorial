@@ -1,4 +1,5 @@
 import Test from './component/test'
+import Tick  from './component/tick'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         </a>
       </header>
       <Test name='yuya' age='21' />
+      <Tick />
     </div>
   );
 }
